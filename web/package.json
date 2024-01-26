@@ -6,12 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky"
   },
   "dependencies": {
+    "@vueuse/core": "^10.7.2",
     "lamda": "^0.4.1",
+    "pinia": "^2.1.7",
     "tdesign-vue-next": "^1.8.0",
-    "vue": "^3.3.11"
+    "vue": "^3.3.11",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",
