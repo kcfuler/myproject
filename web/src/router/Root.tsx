@@ -5,7 +5,7 @@ interface IProps {}
 
 export const Root: FC<IProps> = () => {
   return (
-    <div className="bg-black w-full h-full">
+    <div className="bg-black h-screen">
       <App />
     </div>
   );
